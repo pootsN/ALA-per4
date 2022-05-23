@@ -6,8 +6,7 @@ body{
     margin:0;
      font-family:"Poppins",Arial,sans-serif;
      color:#fff;
-     display:flex;
-    place-items:center;
+     display:grid;
      height:100vh;
    }
    ul{
@@ -27,14 +26,11 @@ body{
      gap: 35px;
      
    }
-   .dropdown{
-      
-   }
    .label{
      cursor:pointer;
      padding:0.8rem 1rem;
      width:100%;
-    display:block;
+     display:block;
      box-sizing:border-box;
      transition:all 0.3s;
      color:black;
@@ -87,7 +83,7 @@ body{
      left:20px;
      z-index:-1;
    }
-   .dropdown1:hover>.items{
+   .dropdown1,.dropdown2:hover>.items{
     opacity:1;
     visibility:visible;
     height:unset;
@@ -110,3 +106,8 @@ body{
     border-bottom:4px solid rgba(223, 209, 12, 0.996);
     border-radius: 3px;
   }
+
+.items, li,.items,li,.items{
+ float: none;
+}
+
