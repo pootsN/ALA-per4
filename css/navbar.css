@@ -37,18 +37,20 @@
   }
   nav ul li a:hover,
   nav ul li a.active{
-    color: #23dbdb;
+    border-bottom: 4px solid rgba(223, 209, 12, 0.996);
+    border-radius: 3px;
   }
   nav ul ul{
     position: absolute;
     top: 85px;
-    border-top: 3px solid #23dbdb;
+    border-top: 3px solid rgba(223, 209, 12, 0.996) ;
     opacity: 0;
     visibility: hidden;
   }
   nav ul li:hover > ul{
     top: 70px;
     opacity: 1;
+    border-radius: 5px;
     visibility: visible;
     transition: .3s linear;
   }
