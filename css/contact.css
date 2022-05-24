@@ -1,7 +1,4 @@
 
-#main{
-    overflow-y: scroll;
-}
 .afspraak {
     width: 90%;
     max-width: 500px;
@@ -51,7 +48,7 @@ button[type="submit"] {
     font-size: 24px;
     border-radius: 8px;
     font-family: 'Raleway', sans-serif;
-    background-color: yellow;
+    background-color: orange;
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
@@ -60,5 +57,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #7fffd4;
+    background-color: orangered;
 }
