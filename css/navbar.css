@@ -8,6 +8,7 @@
     font-family: sans-serif;
     overflow: hidden;
     user-select: none;
+    background-color:#FFA641;
   }
 nav .logo{
     color: orangered;
