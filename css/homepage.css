@@ -1,5 +1,9 @@
 body{
   background-color:#FFA641;
+ 
+  
+
+
 }
 
 .slider{
@@ -7,7 +11,7 @@ body{
   height:500px;
   border-radius:10px;
   overflow:hidden;
- 
+  margin-top: 6vh;
  }
  .slides{ 
    width:500%;
@@ -26,6 +30,7 @@ body{
  position: absolute;
  display: flex;
  justify-content: center;
+ top: 5vh;
 }
 
 .manual-btn{
