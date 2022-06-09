@@ -6,7 +6,7 @@
   }
   body{
     font-family: sans-serif;
-    overflow: hidden;
+
     user-select: none;
     background-color:#FFA641;
     }
@@ -82,9 +82,7 @@
     margin-left: 45px;
   
   }
-  
-
-
+  s
   hover:nav ul ul li a i{
     transform: scale(2, 1);
   }

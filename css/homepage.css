@@ -12,6 +12,7 @@ body{
   border-radius:10px;
   overflow:hidden;
   margin-top: 6vh;
+  margin-left: 3vh;
  }
  .slides{ 
    width:500%;
@@ -27,10 +28,11 @@ body{
  }
  
 .navigation-manual{
- position: absolute;
+ position: relative;
  display: flex;
  justify-content: center;
- top: 5vh;
+ bottom: 30vh;
+ right: 75vh;
 }
 
 .manual-btn{
